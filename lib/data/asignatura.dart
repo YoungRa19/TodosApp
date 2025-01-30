@@ -1,9 +1,9 @@
 class Asignatura {
-  String? nombre;
-  String? codigo;
-  int? curso;
+  String nombre;
+  String codigo;
+  int curso;
   Asignatura({
-    this.nombre, this.codigo, this.curso
+    required this.nombre, required this.codigo, required this.curso
   });
 }
 
@@ -15,3 +15,4 @@ class Curso {
     required this.id, required this.name, required this.teacher
   });
 }
+ 
